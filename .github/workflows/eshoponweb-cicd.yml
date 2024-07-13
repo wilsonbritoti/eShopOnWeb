@@ -9,7 +9,7 @@ env:
   LOCATION: SouthCentralUS
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 97c695be-389a-4971-9c9f-80b8579e3718
-  WEBAPP-NAME: wilsonbritotiaz400
+  WEBAPP-NAME: wilsonbritotia1z400
 
 
 jobs:
