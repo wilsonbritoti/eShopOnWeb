@@ -1,6 +1,6 @@
 param storageName string = 'stg${uniqueString(resourceGroup().id)}'
 param location string = resourceGroup().location
-
+failOnStdErr: true
 resource storageaccount 'Microsoft.Storage/storageAccounts@2021-02-01' = {
     name: 'wilsonbritoti1'
     location: location
