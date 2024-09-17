@@ -19,5 +19,4 @@ jobs:
                   subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
                   resourceGroupName: ${{ secrets.AZURE_RG }}
                   template: infra/webapp.bicep
-                  parameters: storagePrefix=stg
-                  failOnStdErr: false
+                  failOnStdErr: true
